@@ -8,6 +8,7 @@ public class BedRoom extends Room {
         //rent = 8000;
     }
     // area() is ka method h isne inherit kiya h
+    
     int volume(){
         return length*breadth*height;
     }
