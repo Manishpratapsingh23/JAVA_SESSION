@@ -1,0 +1,127 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "MethodsTypeUse",
+            "request": "launch",
+            "mainClass": "MethodsTypeUse",
+            "projectName": "JAVA_SESSION_e06489ad"
+        },
+        {
+            "type": "java",
+            "name": "RoomUse",
+            "request": "launch",
+            "mainClass": "RoomUse",
+            "projectName": "JAVA_SESSION_e06489ad"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "Sorting.BubbleSort",
+            "projectName": "JAVA_SESSION_e06489ad"
+        },
+        {
+            "type": "java",
+            "name": "TypeCasting",
+            "request": "launch",
+            "mainClass": "TypeCasting",
+            "projectName": "JAVA_SESSION_e06489ad"
+        },
+        {
+            "type": "java",
+            "name": "ChildHospitalUse",
+            "request": "launch",
+            "mainClass": "accessSpecifier.p1.ChildHospitalUse",
+            "projectName": "JAVA_SESSION_e06489ad"
+        },
+        {
+            "type": "java",
+            "name": "HospitalA",
+            "request": "launch",
+            "mainClass": "accessSpecifier.p1.HospitalA",
+            "projectName": "JAVA_SESSION_e06489ad"
+        },
+        {
+            "type": "java",
+            "name": "ChildHospitalDifferent",
+            "request": "launch",
+            "mainClass": "accessSpecifier.p2.ChildHospitalDifferent",
+            "projectName": "JAVA_SESSION_e06489ad"
+        },
+        {
+            "type": "java",
+            "name": "HospitalB",
+            "request": "launch",
+            "mainClass": "accessSpecifier.p2.HospitalB",
+            "projectName": "JAVA_SESSION_e06489ad"
+        },
+        {
+            "type": "java",
+            "name": "area",
+            "request": "launch",
+            "mainClass": "area",
+            "projectName": "JAVA_SESSION_e06489ad"
+        },
+        {
+            "type": "java",
+            "name": "areaa",
+            "request": "launch",
+            "mainClass": "areaa",
+            "projectName": "JAVA_SESSION_e06489ad"
+        },
+        {
+            "type": "java",
+            "name": "binarySearch",
+            "request": "launch",
+            "mainClass": "binarySearch",
+            "projectName": "JAVA_SESSION_e06489ad"
+        },
+        {
+            "type": "java",
+            "name": "carUse",
+            "request": "launch",
+            "mainClass": "carUse",
+            "projectName": "JAVA_SESSION_e06489ad"
+        },
+        {
+            "type": "java",
+            "name": "finaKeywordUse",
+            "request": "launch",
+            "mainClass": "finaKeywordUse",
+            "projectName": "JAVA_SESSION_e06489ad"
+        },
+        {
+            "type": "java",
+            "name": "kirayedaar",
+            "request": "launch",
+            "mainClass": "kirayedaar",
+            "projectName": "JAVA_SESSION_e06489ad"
+        },
+        {
+            "type": "java",
+            "name": "linearSearch",
+            "request": "launch",
+            "mainClass": "linearSearch",
+            "projectName": "JAVA_SESSION_e06489ad"
+        },
+        {
+            "type": "java",
+            "name": "thisKeyswords",
+            "request": "launch",
+            "mainClass": "thisKeyswords",
+            "projectName": "JAVA_SESSION_e06489ad"
+        }
+    ]
+}
