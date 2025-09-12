@@ -19,6 +19,7 @@ public class binarySearch {
         } else {
             return binarySearch(arr, target, mid + 1, r);
         }
+        
     }
 }
 
