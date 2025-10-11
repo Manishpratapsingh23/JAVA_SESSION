@@ -1,22 +1,62 @@
-import java.util.*;
+import java.util.Scanner;
 public class NodeUse {
     public static void main(String args[]){
-        Node head = new Node(5);
-        Node n2 = new Node(6);
-        Node n3 = new Node(9);
-        head.next = n2;
-        n2.next = n3;
-        //System.out.println(head.next);
-        //System.out.println(n2);
-        //System.out.println(n3);
-        Node temp = head;
-        while(temp!=null){
-            System.out.println(temp.data);
-            temp = temp.next;
-        }
-        System.out.println(head);
-        System.out.println(temp);
+        Node head = input();
+        //System.out.println(head.data);
+        
+        System.out.println("Original Node is");
+        print(head);
+        instertAtK(head, 10, 5);
+        System.out.println();
+        System.out.println("Modified Node is");
+        print(head);
+
+
+
     }
 
+
+    public static Node input(){
+        Scanner sc = new Scanner(System.in);
+        Node head = null, temp = null;
+        int data = sc.nextInt();
+        while(data!=-1){
+            if(head==null){
+                head = new Node(data);
+                temp = head;
+            } else {
+                temp.next = new Node(data);
+                temp = temp.next;
+            }
+            data = sc.nextInt();
+        }
+        return head;
+    }
+
+
+    public static void print(Node head){
+        while(head!=null){
+            System.out.print(head.data+" -> ");
+            head = head.next;
+        }
+    }
+
+    public static Node instertAtK(Node head, int data, int k){
+        if(k==1){
+            Node newNode = new Node(data);
+            newNode.next = head;
+            head = newNode;
+            return head;
+        }
+        Node temp = head;
+        while(k-1>1 && temp!=null){
+            k--;
+            temp = temp.next;
+        }
+        Node next = temp.next;
+        temp.next = new Node(data);
+        temp.next.next = next;
+    }
+    return head;
 
 }
